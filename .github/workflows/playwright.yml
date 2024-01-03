@@ -20,7 +20,7 @@ jobs:
     - name: Install cross-env
       run: npm install --global cross-env
     - name: Run Playwright tests
-      run: cross-env test_env=test npx playwright test --g @smoke
+      run: cross-env test_env=test npx playwright test --grep @smoke
     - uses: actions/upload-artifact@v3
       if: always()
       with:

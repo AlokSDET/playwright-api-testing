@@ -17,6 +17,7 @@ Playwright Framework - API Testing
 9. Use of Dotenv and CrossEnv
 10. Implementation of query parameter
 11. Use of Custom Reporter
+12. Implentation of CICD Using GitHub Actions.
 
 Pending things to implement-
 
