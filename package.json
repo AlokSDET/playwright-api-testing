@@ -1,0 +1,36 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:test": "cross-env test_env=test npx playwright test",
+    "test:projectA": "npx playwright test --project=projectA --grep @projectA",
+    "test:stage": "cross-env test_env=stage npx playwright test",
+    "test:dev": "cross-env test_env=dev npx playwright test",
+    "smoke-test": "cross-env test_env=test npx playwright test --grep @smoke",
+    "report": "npx playwright show-report",
+    "generate-allure-report": "allure generate my-allure-results -o allure-report --clean",
+    "open-allure-report": "allure open allure-report"
+  },
+  "keywords": [
+    "Playwright",
+    "Automation",
+    "API",
+    "Test"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.5",
+    "allure-commandline": "^2.25.0",
+    "allure-playwright": "^2.10.0",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "playwright-core": "^1.40.1"
+  }
+}
