@@ -28,13 +28,13 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
-  /* Reporter to use. See https://playwright.dev/docs/test-reporters */
+  /* Reporter to use. See https://playwright.dev/docs/test-reporters 
   reporter: [["allure-playwright",  {
     detail: true,
     outputFolder: "my-allure-results",
     suiteTitle: false,
-  }],['html', { open: 'never' }],['list'],['json', {  outputFile: 'test-results.json' }]],
-  //reporter: './my-awesome-reporter.ts',
+  }],['html', { open: 'never' }],['list'],['json', {  outputFile: 'test-results.json' }]],*/
+  reporter: './utils/custom-reporter.ts',
 
   //testMatch: './src/tests/apiTestSuite.ts',
 

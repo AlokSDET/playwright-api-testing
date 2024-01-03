@@ -5,6 +5,7 @@ runme:
 ---
 
 Playwright Framework - API Testing
+
 1. Handling Multiple Projects and multiple baseurl
 2. Handling multiple enviornments like test, stage, dev
 3. Handling parallel execution
@@ -15,8 +16,10 @@ Playwright Framework - API Testing
 8. Authentication using Bearer
 9. Use of Dotenv and CrossEnv
 10. Implementation of query parameter
+11. Use of Custom Reporter
 
-Pending things to implement- 
+Pending things to implement-
+
 1. Use of Faker library
 2. Docerization
 3. Run on AWS services
@@ -25,4 +28,3 @@ Pending things to implement-
 6. Authentication using cookies
 7. Parsing of response using multiple ways or including various library.
 8. Use of Multipart header and other headers
-
