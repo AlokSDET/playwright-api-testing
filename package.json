@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test:test": "cross-env test_env=test npx playwright test",
-    "test:projectA": "npx playwright test --project=projectA --grep @projectA",
+    "test:projectA": "npx playwright test --project=ProjectA --grep @projectA",
     "test:stage": "cross-env test_env=stage npx playwright test",
     "test:dev": "cross-env test_env=dev npx playwright test",
-    "smoke-test": "cross-env test_env=test npx playwright test --grep @smoke",
+    "smoke-test": "cross-env test_env=test npx playwright test --project=chromium --grep @smoke ",
     "report": "npx playwright show-report",
     "generate-allure-report": "allure generate my-allure-results -o allure-report --clean",
     "open-allure-report": "allure open allure-report",
