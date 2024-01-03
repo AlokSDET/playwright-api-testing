@@ -11,7 +11,8 @@
     "smoke-test": "cross-env test_env=test npx playwright test --grep @smoke",
     "report": "npx playwright show-report",
     "generate-allure-report": "allure generate my-allure-results -o allure-report --clean",
-    "open-allure-report": "allure open allure-report"
+    "open-allure-report": "allure open allure-report",
+    "parallel-test:test": "cross-env test_env=test npx playwright test --workers 4"
   },
   "keywords": [
     "Playwright",
