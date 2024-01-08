@@ -6,6 +6,7 @@
   "scripts": {
     "test:test": "cross-env test_env=test npx playwright test",
     "test:projectA": "npx playwright test --project=ProjectA --grep @projectA",
+    "test:projectB": "npx playwright test --project=ProjectB --grep @projectB",
     "test:stage": "cross-env test_env=stage npx playwright test",
     "test:dev": "cross-env test_env=dev npx playwright test",
     "smoke-test": "cross-env test_env=test npx playwright test --project=chromium --grep @smoke ",

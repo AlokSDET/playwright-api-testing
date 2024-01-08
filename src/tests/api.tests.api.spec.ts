@@ -1,6 +1,19 @@
 import { test, expect } from '@playwright/test';
-import ENV from '../../utils/env';
-import { Console } from 'console';
+import path from "path";
+import fs, { readFileSync } from 'fs';
+import { fileURLToPath } from 'url';
+import { File } from 'buffer';
+const fileName1 = path.resolve('test-data/', 'test.jpg');
+const file1 = readFileSync(fileName1);
+const fileName2 = path.resolve('test-data/', 'test.json');
+const fileName3 = path.resolve('test-data/', 'test.csv');
+const file2= readFileSync(fileName2);
+
+
+const stream3 = fs.createReadStream(fileName3);
+//const inputFile = fs.readFileSync(file)
+//console.log(inputFile)
+
 
 test.describe.parallel('Api test', () => {
 
@@ -82,4 +95,36 @@ test.describe.parallel('Api test', () => {
 
                 expect(text.id).toBe(1)
         })
+     
+        //Not working -Need to check 
+        test('File upload @projectA', async ({ request }) => {
+              /*  const res = await request.post("https://api.escuelajs.co/api/v1/files/upload", {
+                        headers: { "Content-Type": "multipart/form-data", "Accept": "application/json"},
+                        multipart: {
+                                "FormData": stream3
+                }
+                }
+                );
+        */  
+                var options = {
+                        formData: {
+                                "file": {
+                                        "value": stream3,
+                                        "options": {
+                                                "fileName": fileName3,
+                                                "content-type": null
+                                        }
+                                }
+                        }
+                    }
+                const res = await request.post("https://api.escuelajs.co/api/v1/files/upload", {data: options});
+
+
+                const resBody = JSON.parse(await res.text())
+                console.log(JSON.parse(await res.text()));
+                console.log(await resBody.totalrecord);
+                expect(res.status()).toBe(201);
+                expect(await resBody.originalname).toEqual("Screenshot 2024-01-03 143326.png");
+        })
+
 })

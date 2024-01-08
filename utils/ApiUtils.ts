@@ -1,5 +1,4 @@
 import { APIRequestContext } from "@playwright/test";
-import ENV from "./env";
 
 export default class API {
     private request: APIRequestContext;

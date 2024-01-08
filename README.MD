@@ -18,14 +18,16 @@ Playwright Framework - API Testing
 10. Implementation of query parameter
 11. Use of Custom Reporter
 12. Implentation of CICD Using GitHub Actions.
+13. File upload using Playwright API Testing with multipart-formdata
+14. Parsing of response using multiple ways or including various library.
+15. Use of Multipart header and other headers
+16. Use of Pojo
+17. Use of Faker library
+18. Send request using json or csv
 
 Pending things to implement-
 
-1. Use of Faker library
-2. Docerization
-3. Run on AWS services
-4. Use of Pojo
-5. Send request using json or csv
-6. Authentication using cookies
-7. Parsing of response using multiple ways or including various library.
-8. Use of Multipart header and other headers
+
+1. Docerization
+2. Run on AWS services
+3. Authentication using cookies
