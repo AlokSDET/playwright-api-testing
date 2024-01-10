@@ -116,7 +116,7 @@
         {
           "title": "API Framework test suite",
           "file": "apiTestSuite.spec.ts",
-          "line": 10,
+          "line": 12,
           "column": 6,
           "specs": [
             {
@@ -136,7 +136,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 164,
+                      "duration": 151,
                       "errors": [],
                       "stdout": [
                         {
@@ -146,28 +146,31 @@
                           "text": "{\n  headers: {},\n  data: { email: \u001b[32m'alok.s@gmail.com'\u001b[39m, password: \u001b[33m123456\u001b[39m },\n  params: \u001b[90mundefined\u001b[39m\n}\n"
                         },
                         {
-                          "text": "{\n  code: \u001b[33m0\u001b[39m,\n  message: \u001b[32m'success'\u001b[39m,\n  data: {\n    Id: \u001b[33m292528\u001b[39m,\n    Name: \u001b[32m'Developer'\u001b[39m,\n    Email: \u001b[32m'alok.s@gmail.com'\u001b[39m,\n    Token: \u001b[32m'062a35be-8e29-4d43-ae0e-cae3b100d66e'\u001b[39m\n  }\n}\n"
+                          "text": "{\n  code: \u001b[33m0\u001b[39m,\n  message: \u001b[32m'success'\u001b[39m,\n  data: {\n    Id: \u001b[33m292528\u001b[39m,\n    Name: \u001b[32m'Developer'\u001b[39m,\n    Email: \u001b[32m'alok.s@gmail.com'\u001b[39m,\n    Token: \u001b[32m'a1579e30-e77f-485b-afc4-5adf27121619'\u001b[39m\n  }\n}\n"
                         },
                         {
-                          "text": "062a35be-8e29-4d43-ae0e-cae3b100d66e\n"
+                          "text": "a1579e30-e77f-485b-afc4-5adf27121619\n"
+                        },
+                        {
+                          "text": "{\"level\":\"info\",\"message\":\"token and user id extracted.\"}\r\n"
                         },
                         {
                           "text": "http://restapi.adequateshop.com\n"
                         },
                         {
-                          "text": "{ Authorization: \u001b[32m'Bearer 062a35be-8e29-4d43-ae0e-cae3b100d66e'\u001b[39m }\n"
+                          "text": "{ Authorization: \u001b[32m'Bearer a1579e30-e77f-485b-afc4-5adf27121619'\u001b[39m }\n"
                         },
                         {
-                          "text": "{\n  headers: { Authorization: \u001b[32m'Bearer 062a35be-8e29-4d43-ae0e-cae3b100d66e'\u001b[39m },\n  data: \u001b[90mundefined\u001b[39m,\n  params: { page: \u001b[33m1\u001b[39m }\n}\n"
+                          "text": "{\n  headers: { Authorization: \u001b[32m'Bearer a1579e30-e77f-485b-afc4-5adf27121619'\u001b[39m },\n  data: \u001b[90mundefined\u001b[39m,\n  params: { page: \u001b[33m1\u001b[39m }\n}\n"
                         },
                         {
-                          "text": "{\n  page: \u001b[33m1\u001b[39m,\n  per_page: \u001b[33m10\u001b[39m,\n  totalrecord: \u001b[33m25219\u001b[39m,\n  total_pages: \u001b[33m2522\u001b[39m,\n  data: [\n    {\n      id: \u001b[33m11133\u001b[39m,\n      name: \u001b[32m'Developer'\u001b[39m,\n      email: \u001b[32m'Developer12@gmail.com'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11134\u001b[39m,\n      name: \u001b[32m'AS'\u001b[39m,\n      email: \u001b[32m'qweqw@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11135\u001b[39m,\n      name: \u001b[32m'vano'\u001b[39m,\n      email: \u001b[32m'van.19v@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11136\u001b[39m,\n      name: \u001b[32m'Developer123'\u001b[39m,\n      email: \u001b[32m'Developer523@gmail.com'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11137\u001b[39m,\n      name: \u001b[32m'Ashor'\u001b[39m,\n      email: \u001b[32m'ashot.vardanyan.2000@gmail.com'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11138\u001b[39m,\n      name: \u001b[32m'1234'\u001b[39m,\n      email: \u001b[32m'ghag@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11139\u001b[39m,\n      name: \u001b[32m'asdasd'\u001b[39m,\n      email: \u001b[32m'asdasd@dasda.asd'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11140\u001b[39m,\n      name: \u001b[32m'da'\u001b[39m,\n      email: \u001b[32m'auriu@gmail.com'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11142\u001b[39m,\n      name: \u001b[32m'asdasd'\u001b[39m,\n      email: \u001b[32m'qwwerrwerweeqw@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11143\u001b[39m,\n      name: \u001b[32m'karen'\u001b[39m,\n      email: \u001b[32m'karen@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    }\n  ]\n}\n"
+                          "text": "{\n  page: \u001b[33m1\u001b[39m,\n  per_page: \u001b[33m10\u001b[39m,\n  totalrecord: \u001b[33m27347\u001b[39m,\n  total_pages: \u001b[33m2735\u001b[39m,\n  data: [\n    {\n      id: \u001b[33m11133\u001b[39m,\n      name: \u001b[32m'Developer'\u001b[39m,\n      email: \u001b[32m'Developer12@gmail.com'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11134\u001b[39m,\n      name: \u001b[32m'AS'\u001b[39m,\n      email: \u001b[32m'qweqw@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11135\u001b[39m,\n      name: \u001b[32m'vano'\u001b[39m,\n      email: \u001b[32m'van.19v@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11136\u001b[39m,\n      name: \u001b[32m'Developer123'\u001b[39m,\n      email: \u001b[32m'Developer523@gmail.com'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11137\u001b[39m,\n      name: \u001b[32m'Ashor'\u001b[39m,\n      email: \u001b[32m'ashot.vardanyan.2000@gmail.com'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11138\u001b[39m,\n      name: \u001b[32m'1234'\u001b[39m,\n      email: \u001b[32m'ghag@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11139\u001b[39m,\n      name: \u001b[32m'asdasd'\u001b[39m,\n      email: \u001b[32m'asdasd@dasda.asd'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11140\u001b[39m,\n      name: \u001b[32m'da'\u001b[39m,\n      email: \u001b[32m'auriu@gmail.com'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11142\u001b[39m,\n      name: \u001b[32m'asdasd'\u001b[39m,\n      email: \u001b[32m'qwwerrwerweeqw@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11143\u001b[39m,\n      name: \u001b[32m'karen'\u001b[39m,\n      email: \u001b[32m'karen@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    }\n  ]\n}\n"
                         },
                         {
-                          "text": "{\n  page: \u001b[33m1\u001b[39m,\n  per_page: \u001b[33m10\u001b[39m,\n  totalrecord: \u001b[33m25219\u001b[39m,\n  total_pages: \u001b[33m2522\u001b[39m,\n  data: [\n    {\n      id: \u001b[33m11133\u001b[39m,\n      name: \u001b[32m'Developer'\u001b[39m,\n      email: \u001b[32m'Developer12@gmail.com'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11134\u001b[39m,\n      name: \u001b[32m'AS'\u001b[39m,\n      email: \u001b[32m'qweqw@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11135\u001b[39m,\n      name: \u001b[32m'vano'\u001b[39m,\n      email: \u001b[32m'van.19v@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11136\u001b[39m,\n      name: \u001b[32m'Developer123'\u001b[39m,\n      email: \u001b[32m'Developer523@gmail.com'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11137\u001b[39m,\n      name: \u001b[32m'Ashor'\u001b[39m,\n      email: \u001b[32m'ashot.vardanyan.2000@gmail.com'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11138\u001b[39m,\n      name: \u001b[32m'1234'\u001b[39m,\n      email: \u001b[32m'ghag@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11139\u001b[39m,\n      name: \u001b[32m'asdasd'\u001b[39m,\n      email: \u001b[32m'asdasd@dasda.asd'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11140\u001b[39m,\n      name: \u001b[32m'da'\u001b[39m,\n      email: \u001b[32m'auriu@gmail.com'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11142\u001b[39m,\n      name: \u001b[32m'asdasd'\u001b[39m,\n      email: \u001b[32m'qwwerrwerweeqw@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11143\u001b[39m,\n      name: \u001b[32m'karen'\u001b[39m,\n      email: \u001b[32m'karen@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    }\n  ]\n}\n"
+                          "text": "{\n  page: \u001b[33m1\u001b[39m,\n  per_page: \u001b[33m10\u001b[39m,\n  totalrecord: \u001b[33m27347\u001b[39m,\n  total_pages: \u001b[33m2735\u001b[39m,\n  data: [\n    {\n      id: \u001b[33m11133\u001b[39m,\n      name: \u001b[32m'Developer'\u001b[39m,\n      email: \u001b[32m'Developer12@gmail.com'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11134\u001b[39m,\n      name: \u001b[32m'AS'\u001b[39m,\n      email: \u001b[32m'qweqw@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11135\u001b[39m,\n      name: \u001b[32m'vano'\u001b[39m,\n      email: \u001b[32m'van.19v@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11136\u001b[39m,\n      name: \u001b[32m'Developer123'\u001b[39m,\n      email: \u001b[32m'Developer523@gmail.com'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11137\u001b[39m,\n      name: \u001b[32m'Ashor'\u001b[39m,\n      email: \u001b[32m'ashot.vardanyan.2000@gmail.com'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11138\u001b[39m,\n      name: \u001b[32m'1234'\u001b[39m,\n      email: \u001b[32m'ghag@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11139\u001b[39m,\n      name: \u001b[32m'asdasd'\u001b[39m,\n      email: \u001b[32m'asdasd@dasda.asd'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11140\u001b[39m,\n      name: \u001b[32m'da'\u001b[39m,\n      email: \u001b[32m'auriu@gmail.com'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11142\u001b[39m,\n      name: \u001b[32m'asdasd'\u001b[39m,\n      email: \u001b[32m'qwwerrwerweeqw@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    },\n    {\n      id: \u001b[33m11143\u001b[39m,\n      name: \u001b[32m'karen'\u001b[39m,\n      email: \u001b[32m'karen@mail.ru'\u001b[39m,\n      profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n      location: \u001b[32m'USA'\u001b[39m,\n      createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n    }\n  ]\n}\n"
                         },
                         {
-                          "text": "\u001b[33m25219\u001b[39m\n"
+                          "text": "\u001b[33m27347\u001b[39m\n"
                         },
                         {
                           "text": "[\n  {\n    id: \u001b[33m11133\u001b[39m,\n    name: \u001b[32m'Developer'\u001b[39m,\n    email: \u001b[32m'Developer12@gmail.com'\u001b[39m,\n    profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n    location: \u001b[32m'USA'\u001b[39m,\n    createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n  },\n  {\n    id: \u001b[33m11134\u001b[39m,\n    name: \u001b[32m'AS'\u001b[39m,\n    email: \u001b[32m'qweqw@mail.ru'\u001b[39m,\n    profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n    location: \u001b[32m'USA'\u001b[39m,\n    createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n  },\n  {\n    id: \u001b[33m11135\u001b[39m,\n    name: \u001b[32m'vano'\u001b[39m,\n    email: \u001b[32m'van.19v@mail.ru'\u001b[39m,\n    profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n    location: \u001b[32m'USA'\u001b[39m,\n    createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n  },\n  {\n    id: \u001b[33m11136\u001b[39m,\n    name: \u001b[32m'Developer123'\u001b[39m,\n    email: \u001b[32m'Developer523@gmail.com'\u001b[39m,\n    profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n    location: \u001b[32m'USA'\u001b[39m,\n    createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n  },\n  {\n    id: \u001b[33m11137\u001b[39m,\n    name: \u001b[32m'Ashor'\u001b[39m,\n    email: \u001b[32m'ashot.vardanyan.2000@gmail.com'\u001b[39m,\n    profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n    location: \u001b[32m'USA'\u001b[39m,\n    createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n  },\n  {\n    id: \u001b[33m11138\u001b[39m,\n    name: \u001b[32m'1234'\u001b[39m,\n    email: \u001b[32m'ghag@mail.ru'\u001b[39m,\n    profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n    location: \u001b[32m'USA'\u001b[39m,\n    createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n  },\n  {\n    id: \u001b[33m11139\u001b[39m,\n    name: \u001b[32m'asdasd'\u001b[39m,\n    email: \u001b[32m'asdasd@dasda.asd'\u001b[39m,\n    profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n    location: \u001b[32m'USA'\u001b[39m,\n    createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n  },\n  {\n    id: \u001b[33m11140\u001b[39m,\n    name: \u001b[32m'da'\u001b[39m,\n    email: \u001b[32m'auriu@gmail.com'\u001b[39m,\n    profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n    location: \u001b[32m'USA'\u001b[39m,\n    createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n  },\n  {\n    id: \u001b[33m11142\u001b[39m,\n    name: \u001b[32m'asdasd'\u001b[39m,\n    email: \u001b[32m'qwwerrwerweeqw@mail.ru'\u001b[39m,\n    profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n    location: \u001b[32m'USA'\u001b[39m,\n    createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n  },\n  {\n    id: \u001b[33m11143\u001b[39m,\n    name: \u001b[32m'karen'\u001b[39m,\n    email: \u001b[32m'karen@mail.ru'\u001b[39m,\n    profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n    location: \u001b[32m'USA'\u001b[39m,\n    createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n  }\n]\n"
@@ -175,7 +178,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-01-08T17:00:45.820Z",
+                      "startTime": "2024-01-10T05:15:46.734Z",
                       "attachments": []
                     }
                   ],
@@ -184,7 +187,7 @@
               ],
               "id": "026d60906b190d250ebf-d70bd48f09b4717c685a",
               "file": "apiTestSuite.spec.ts",
-              "line": 27,
+              "line": 33,
               "column": 9
             },
             {
@@ -204,7 +207,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 146,
+                      "duration": 127,
                       "errors": [],
                       "stdout": [
                         {
@@ -214,10 +217,10 @@
                           "text": "\u001b[33m292528\u001b[39m\n"
                         },
                         {
-                          "text": "{ Authorization: \u001b[32m'Bearer 062a35be-8e29-4d43-ae0e-cae3b100d66e'\u001b[39m }\n"
+                          "text": "{ Authorization: \u001b[32m'Bearer a1579e30-e77f-485b-afc4-5adf27121619'\u001b[39m }\n"
                         },
                         {
-                          "text": "{\n  headers: { Authorization: \u001b[32m'Bearer 062a35be-8e29-4d43-ae0e-cae3b100d66e'\u001b[39m },\n  data: \u001b[90mundefined\u001b[39m,\n  params: \u001b[90mundefined\u001b[39m\n}\n"
+                          "text": "{\n  headers: { Authorization: \u001b[32m'Bearer a1579e30-e77f-485b-afc4-5adf27121619'\u001b[39m },\n  data: \u001b[90mundefined\u001b[39m,\n  params: \u001b[90mundefined\u001b[39m\n}\n"
                         },
                         {
                           "text": "{\n  id: \u001b[33m292528\u001b[39m,\n  name: \u001b[32m'Developer'\u001b[39m,\n  email: \u001b[32m'alok.s@gmail.com'\u001b[39m,\n  profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n  location: \u001b[32m'USA'\u001b[39m,\n  createdat: \u001b[32m'0001-01-01T00:00:00'\u001b[39m\n}\n"
@@ -231,7 +234,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-01-08T17:00:46.221Z",
+                      "startTime": "2024-01-10T05:15:47.479Z",
                       "attachments": []
                     }
                   ],
@@ -240,7 +243,7 @@
               ],
               "id": "026d60906b190d250ebf-9828855fa07b16deb2a5",
               "file": "apiTestSuite.spec.ts",
-              "line": 40,
+              "line": 47,
               "column": 9
             },
             {
@@ -260,7 +263,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 220,
+                      "duration": 186,
                       "errors": [],
                       "stdout": [
                         {
@@ -270,16 +273,16 @@
                           "text": "\u001b[33m292528\u001b[39m\n"
                         },
                         {
-                          "text": "{ Authorization: \u001b[32m'Bearer 062a35be-8e29-4d43-ae0e-cae3b100d66e'\u001b[39m }\n"
+                          "text": "{ Authorization: \u001b[32m'Bearer a1579e30-e77f-485b-afc4-5adf27121619'\u001b[39m }\n"
                         },
                         {
-                          "text": "{\n  headers: { Authorization: \u001b[32m'Bearer 062a35be-8e29-4d43-ae0e-cae3b100d66e'\u001b[39m },\n  data: NewUser {\n    name: \u001b[32m'Leigh Bradtke'\u001b[39m,\n    email: \u001b[32m'Keenan.Schamberger51@yahoo.com'\u001b[39m,\n    location: \u001b[32m'Sierra Leone'\u001b[39m\n  },\n  params: \u001b[90mundefined\u001b[39m\n}\n"
+                          "text": "{\n  headers: { Authorization: \u001b[32m'Bearer a1579e30-e77f-485b-afc4-5adf27121619'\u001b[39m },\n  data: NewUser {\n    name: \u001b[32m'Clint Schowalter'\u001b[39m,\n    email: \u001b[32m'Linwood_Hilll@gmail.com'\u001b[39m,\n    location: \u001b[32m'Spain'\u001b[39m\n  },\n  params: \u001b[90mundefined\u001b[39m\n}\n"
                         },
                         {
-                          "text": "{\n  id: \u001b[33m295206\u001b[39m,\n  name: \u001b[32m'Leigh Bradtke'\u001b[39m,\n  email: \u001b[32m'Keenan.Schamberger51@yahoo.com'\u001b[39m,\n  profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n  location: \u001b[32m'Sierra Leone'\u001b[39m,\n  createdat: \u001b[32m'2024-01-08T17:00:40.0349945Z'\u001b[39m\n}\n"
+                          "text": "{\n  id: \u001b[33m297334\u001b[39m,\n  name: \u001b[32m'Clint Schowalter'\u001b[39m,\n  email: \u001b[32m'Linwood_Hilll@gmail.com'\u001b[39m,\n  profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n  location: \u001b[32m'Spain'\u001b[39m,\n  createdat: \u001b[32m'2024-01-10T05:15:49.183823Z'\u001b[39m\n}\n"
                         },
                         {
-                          "text": "{\n  id: \u001b[33m295206\u001b[39m,\n  name: \u001b[32m'Leigh Bradtke'\u001b[39m,\n  email: \u001b[32m'Keenan.Schamberger51@yahoo.com'\u001b[39m,\n  profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n  location: \u001b[32m'Sierra Leone'\u001b[39m,\n  createdat: \u001b[32m'2024-01-08T17:00:40.0349945Z'\u001b[39m\n}\n"
+                          "text": "{\n  id: \u001b[33m297334\u001b[39m,\n  name: \u001b[32m'Clint Schowalter'\u001b[39m,\n  email: \u001b[32m'Linwood_Hilll@gmail.com'\u001b[39m,\n  profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n  location: \u001b[32m'Spain'\u001b[39m,\n  createdat: \u001b[32m'2024-01-10T05:15:49.183823Z'\u001b[39m\n}\n"
                         },
                         {
                           "text": "\u001b[90mundefined\u001b[39m\n"
@@ -287,7 +290,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-01-08T17:00:46.370Z",
+                      "startTime": "2024-01-10T05:15:47.608Z",
                       "attachments": []
                     }
                   ],
@@ -296,12 +299,12 @@
               ],
               "id": "026d60906b190d250ebf-fd3001c3e33612e98efe",
               "file": "apiTestSuite.spec.ts",
-              "line": 51,
+              "line": 59,
               "column": 9
             },
             {
               "title": "Create user using external json file @smoke",
-              "ok": true,
+              "ok": false,
               "tags": [
                 "smoke"
               ],
@@ -315,9 +318,28 @@
                   "results": [
                     {
                       "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 168,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 161,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m400\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m400\u001b[39m\n    at C:\\Users\\alok.shrivastava\\automation\\playwright-api-testing\\src\\tests\\apiTestSuite.spec.ts:84:34",
+                        "location": {
+                          "file": "C:\\Users\\alok.shrivastava\\automation\\playwright-api-testing\\src\\tests\\apiTestSuite.spec.ts",
+                          "column": 34,
+                          "line": 84
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 82 |\u001b[39m             console\u001b[33m.\u001b[39mlog(\u001b[33mJSON\u001b[39m\u001b[33m.\u001b[39mparse(\u001b[36mawait\u001b[39m res\u001b[33m.\u001b[39mtext()))\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 83 |\u001b[39m             console\u001b[33m.\u001b[39mlog(\u001b[36mawait\u001b[39m resBody\u001b[33m.\u001b[39mtotalrecord)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 84 |\u001b[39m             expect(res\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m201\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 85 |\u001b[39m             expect(\u001b[36mawait\u001b[39m resBody\u001b[33m.\u001b[39mname)\u001b[33m.\u001b[39mtoEqual(userJson\u001b[33m.\u001b[39mname)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 86 |\u001b[39m     })\u001b[0m\n\u001b[0m \u001b[90m 87 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\alok.shrivastava\\automation\\playwright-api-testing\\src\\tests\\apiTestSuite.spec.ts",
+                            "column": 34,
+                            "line": 84
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m400\u001b[39m\n\n\u001b[0m \u001b[90m 82 |\u001b[39m             console\u001b[33m.\u001b[39mlog(\u001b[33mJSON\u001b[39m\u001b[33m.\u001b[39mparse(\u001b[36mawait\u001b[39m res\u001b[33m.\u001b[39mtext()))\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 83 |\u001b[39m             console\u001b[33m.\u001b[39mlog(\u001b[36mawait\u001b[39m resBody\u001b[33m.\u001b[39mtotalrecord)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 84 |\u001b[39m             expect(res\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m201\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 85 |\u001b[39m             expect(\u001b[36mawait\u001b[39m resBody\u001b[33m.\u001b[39mname)\u001b[33m.\u001b[39mtoEqual(userJson\u001b[33m.\u001b[39mname)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 86 |\u001b[39m     })\u001b[0m\n\u001b[0m \u001b[90m 87 |\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\alok.shrivastava\\automation\\playwright-api-testing\\src\\tests\\apiTestSuite.spec.ts:84:34\u001b[22m"
+                        }
+                      ],
                       "stdout": [
                         {
                           "text": "http://restapi.adequateshop.com\n"
@@ -326,16 +348,16 @@
                           "text": "\u001b[33m292528\u001b[39m\n"
                         },
                         {
-                          "text": "{ Authorization: \u001b[32m'Bearer 062a35be-8e29-4d43-ae0e-cae3b100d66e'\u001b[39m }\n"
+                          "text": "{ Authorization: \u001b[32m'Bearer a1579e30-e77f-485b-afc4-5adf27121619'\u001b[39m }\n"
                         },
                         {
-                          "text": "{\n  headers: { Authorization: \u001b[32m'Bearer 062a35be-8e29-4d43-ae0e-cae3b100d66e'\u001b[39m },\n  data: { name: \u001b[32m'chairman'\u001b[39m, email: \u001b[32m'chairman@gmail.com'\u001b[39m, location: \u001b[32m'USA'\u001b[39m },\n  params: \u001b[90mundefined\u001b[39m\n}\n"
+                          "text": "{\n  headers: { Authorization: \u001b[32m'Bearer a1579e30-e77f-485b-afc4-5adf27121619'\u001b[39m },\n  data: { name: \u001b[32m'chairman'\u001b[39m, email: \u001b[32m'chairman@gmail.com'\u001b[39m, location: \u001b[32m'USA'\u001b[39m },\n  params: \u001b[90mundefined\u001b[39m\n}\n"
                         },
                         {
-                          "text": "{\n  id: \u001b[33m295207\u001b[39m,\n  name: \u001b[32m'chairman'\u001b[39m,\n  email: \u001b[32m'chairman@gmail.com'\u001b[39m,\n  profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n  location: \u001b[32m'USA'\u001b[39m,\n  createdat: \u001b[32m'2024-01-08T17:00:40.238102Z'\u001b[39m\n}\n"
+                          "text": "{ Message: \u001b[32m'Pleae try with different email address!'\u001b[39m }\n"
                         },
                         {
-                          "text": "{\n  id: \u001b[33m295207\u001b[39m,\n  name: \u001b[32m'chairman'\u001b[39m,\n  email: \u001b[32m'chairman@gmail.com'\u001b[39m,\n  profilepicture: \u001b[32m'http://restapi.adequateshop.com/Media//Images/userimageicon.png'\u001b[39m,\n  location: \u001b[32m'USA'\u001b[39m,\n  createdat: \u001b[32m'2024-01-08T17:00:40.238102Z'\u001b[39m\n}\n"
+                          "text": "{ Message: \u001b[32m'Pleae try with different email address!'\u001b[39m }\n"
                         },
                         {
                           "text": "\u001b[90mundefined\u001b[39m\n"
@@ -343,16 +365,116 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-01-08T17:00:46.590Z",
-                      "attachments": []
+                      "startTime": "2024-01-10T05:15:47.795Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "C:\\Users\\alok.shrivastava\\automation\\playwright-api-testing\\src\\tests\\apiTestSuite.spec.ts",
+                        "column": 34,
+                        "line": 84
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "026d60906b190d250ebf-9c26b001792b1371e251",
               "file": "apiTestSuite.spec.ts",
-              "line": 69,
+              "line": 77,
+              "column": 9
+            },
+            {
+              "title": "Update user using external json file @smoke",
+              "ok": false,
+              "tags": [
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "failed",
+                      "duration": 150,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m400\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m400\u001b[39m\n    at C:\\Users\\alok.shrivastava\\automation\\playwright-api-testing\\src\\tests\\apiTestSuite.spec.ts:95:34",
+                        "location": {
+                          "file": "C:\\Users\\alok.shrivastava\\automation\\playwright-api-testing\\src\\tests\\apiTestSuite.spec.ts",
+                          "column": 34,
+                          "line": 95
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 93 |\u001b[39m             console\u001b[33m.\u001b[39mlog(\u001b[33mJSON\u001b[39m\u001b[33m.\u001b[39mparse(\u001b[36mawait\u001b[39m res\u001b[33m.\u001b[39mtext()))\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 94 |\u001b[39m             console\u001b[33m.\u001b[39mlog(\u001b[36mawait\u001b[39m resBody\u001b[33m.\u001b[39mtotalrecord)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 95 |\u001b[39m             expect(res\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m201\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 96 |\u001b[39m             expect(\u001b[36mawait\u001b[39m resBody\u001b[33m.\u001b[39mname)\u001b[33m.\u001b[39mtoEqual(userJson\u001b[33m.\u001b[39mname)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 97 |\u001b[39m             \u001b[0m\n\u001b[0m \u001b[90m 98 |\u001b[39m             \u001b[33mWINSTON_LOGGER\u001b[39m\u001b[33m.\u001b[39moptions(\u001b[32m'test from winston class logger'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\alok.shrivastava\\automation\\playwright-api-testing\\src\\tests\\apiTestSuite.spec.ts",
+                            "column": 34,
+                            "line": 95
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m400\u001b[39m\n\n\u001b[0m \u001b[90m 93 |\u001b[39m             console\u001b[33m.\u001b[39mlog(\u001b[33mJSON\u001b[39m\u001b[33m.\u001b[39mparse(\u001b[36mawait\u001b[39m res\u001b[33m.\u001b[39mtext()))\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 94 |\u001b[39m             console\u001b[33m.\u001b[39mlog(\u001b[36mawait\u001b[39m resBody\u001b[33m.\u001b[39mtotalrecord)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 95 |\u001b[39m             expect(res\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m201\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 96 |\u001b[39m             expect(\u001b[36mawait\u001b[39m resBody\u001b[33m.\u001b[39mname)\u001b[33m.\u001b[39mtoEqual(userJson\u001b[33m.\u001b[39mname)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 97 |\u001b[39m             \u001b[0m\n\u001b[0m \u001b[90m 98 |\u001b[39m             \u001b[33mWINSTON_LOGGER\u001b[39m\u001b[33m.\u001b[39moptions(\u001b[32m'test from winston class logger'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\alok.shrivastava\\automation\\playwright-api-testing\\src\\tests\\apiTestSuite.spec.ts:95:34\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "{}\n"
+                        },
+                        {
+                          "text": "{\n  headers: {},\n  data: { email: \u001b[32m'alok.s@gmail.com'\u001b[39m, password: \u001b[33m123456\u001b[39m },\n  params: \u001b[90mundefined\u001b[39m\n}\n"
+                        },
+                        {
+                          "text": "{\n  code: \u001b[33m0\u001b[39m,\n  message: \u001b[32m'success'\u001b[39m,\n  data: {\n    Id: \u001b[33m292528\u001b[39m,\n    Name: \u001b[32m'Developer'\u001b[39m,\n    Email: \u001b[32m'alok.s@gmail.com'\u001b[39m,\n    Token: \u001b[32m'8b452b11-7054-476a-b876-8cdf039702b7'\u001b[39m\n  }\n}\n"
+                        },
+                        {
+                          "text": "8b452b11-7054-476a-b876-8cdf039702b7\n"
+                        },
+                        {
+                          "text": "{\"level\":\"info\",\"message\":\"token and user id extracted.\"}\r\n"
+                        },
+                        {
+                          "text": "http://restapi.adequateshop.com\n"
+                        },
+                        {
+                          "text": "\u001b[33m292528\u001b[39m\n"
+                        },
+                        {
+                          "text": "{ Authorization: \u001b[32m'Bearer 8b452b11-7054-476a-b876-8cdf039702b7'\u001b[39m }\n"
+                        },
+                        {
+                          "text": "{\n  headers: { Authorization: \u001b[32m'Bearer 8b452b11-7054-476a-b876-8cdf039702b7'\u001b[39m },\n  data: { name: \u001b[32m'chairman'\u001b[39m, email: \u001b[32m'chairman@gmail.com'\u001b[39m, location: \u001b[32m'USA'\u001b[39m },\n  params: \u001b[90mundefined\u001b[39m\n}\n"
+                        },
+                        {
+                          "text": "{ Message: \u001b[32m'Pleae try with different email address!'\u001b[39m }\n"
+                        },
+                        {
+                          "text": "{ Message: \u001b[32m'Pleae try with different email address!'\u001b[39m }\n"
+                        },
+                        {
+                          "text": "\u001b[90mundefined\u001b[39m\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-10T05:15:48.599Z",
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "C:\\Users\\alok.shrivastava\\automation\\playwright-api-testing\\src\\tests\\apiTestSuite.spec.ts",
+                        "column": 34,
+                        "line": 95
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "026d60906b190d250ebf-368938039d91661e85fb",
+              "file": "apiTestSuite.spec.ts",
+              "line": 88,
               "column": 9
             }
           ]
@@ -362,11 +484,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-01-08T17:00:45.114Z",
-    "duration": 1670.837,
-    "expected": 4,
+    "startTime": "2024-01-10T05:15:45.278Z",
+    "duration": 3705.173,
+    "expected": 3,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 2,
     "flaky": 0
   }
 }

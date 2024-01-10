@@ -1,6 +1,7 @@
 import {expect} from "playwright/test";
 import { fixtures as test } from "../../utils/fixtures";
 import ENV from "../../utils/env";
+import winston from 'winston';
 
 test.describe("API Framework test suite", () =>{
     let token :string ;

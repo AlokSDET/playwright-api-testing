@@ -27,12 +27,16 @@
     "@faker-js/faker": "^8.3.1",
     "@playwright/test": "^1.40.1",
     "@types/node": "^20.10.5",
+    "@types/pg": "^8.10.9",
     "allure-commandline": "^2.25.0",
     "allure-playwright": "^2.10.0",
     "cross-env": "^7.0.3"
   },
   "dependencies": {
+    "coverage": "^0.4.1",
     "dotenv": "^16.3.1",
-    "playwright-core": "^1.40.1"
+    "pg": "^8.11.3",
+    "playwright-core": "^1.40.1",
+    "winston": "^3.11.0"
   }
 }
