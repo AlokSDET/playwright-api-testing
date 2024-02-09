@@ -1,7 +1,7 @@
 ---
 runme:
   id: 01HK6Y829MVEY06MCTCW0J9C5S
-  version: v2.0
+  version: v2.2
 ---
 
 Playwright Framework - API Testing
@@ -24,10 +24,14 @@ Playwright Framework - API Testing
 16. Use of Pojo
 17. Use of Faker library
 18. Send request using json or csv
+19. Integration with Winston logger
+20. Integration with Postgress db
+21. Integration with Code Coverage lib
+22. Integration with k6 and Artillerly for load testing with Playwright
 
 Pending things to implement-
 
-
 1. Docerization
 2. Run on AWS services
-3. Authentication using cookies
+3. Authentication using cookies
+4. Update Read me file
