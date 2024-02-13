@@ -36,8 +36,10 @@
   "dependencies": {
     "coverage": "^0.4.1",
     "dotenv": "^16.3.1",
+    "exceljs": "^4.4.0",
     "pg": "^8.11.3",
     "playwright-core": "^1.40.1",
-    "winston": "^3.11.0"
+    "winston": "^3.11.0",
+    "xlsx": "^0.18.5"
   }
 }
